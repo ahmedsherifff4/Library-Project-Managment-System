@@ -3,7 +3,7 @@
 A comprehensive database system designed to manage library operations, including book inventory, staff roles, user transactions, and borrowing tracking.
 
 ## 📂 Project Resources
-- **Database Schema & Logic (PDF):** [Click here to view the Design Document](./Library_Project_Erd,Schema_And_Assumptions.pdf)  
+- **Database Schema & Logic (PDF):** [Click here to view the Design Document](https://github.com/ahmedsherifff4/Library-Project-Managment-System/tree/238aa12185da045a315cbe5e6bddeb70c2056ee2/Library_Project_Erd%2CSchema_And_Assumptions)  
 - **SQL Implementation Code:** [Click here to view the SQL Script](./library_management.sql)  
 - **Forms & User Interface (PDF):** [Click here to view the Forms Design](./Library_Forms_Design.pdf)  
 
@@ -36,3 +36,4 @@ CREATE TABLE Book(
     Author_ID number(5) REFERENCES Author(Author_id),
     Company_ID number(5) REFERENCES Publishing_company(Company_id)
 );
+

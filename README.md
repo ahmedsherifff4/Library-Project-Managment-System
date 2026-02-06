@@ -5,7 +5,6 @@ A comprehensive database system designed to manage library operations, including
 ## 📂 Project Resources
 - **Database Schema & Logic (PDF):** [Click here to view the Design Document That contain ERD,SCHEMA AND ASSUPTION](https://github.com/ahmedsherifff4/Library-Project-Managment-System/tree/238aa12185da045a315cbe5e6bddeb70c2056ee2/Library_Project_Erd%2CSchema_And_Assumptions)  
 - **SQL Implementation Code:** [Click here to view the SQL Script](https://github.com/ahmedsherifff4/Library-Project-Managment-System/blob/5255e3acde370a18fe7e0f6d7fb4752ee06b89ef/src/library_management.sql)  
-- **Forms & User Interface (PDF):** [Click here to view the Forms Design](./Library_Forms_Design.pdf)  
 
 ## 🛠️ What I have Done
 1. **Conceptual Design (ERD):** Created a detailed ERD showing entities like Staff, Books, Users, and Authors with their relationships.  
@@ -36,6 +35,7 @@ CREATE TABLE Book(
     Author_ID number(5) REFERENCES Author(Author_id),
     Company_ID number(5) REFERENCES Publishing_company(Company_id)
 );
+
 
 
 
